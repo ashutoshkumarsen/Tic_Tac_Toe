@@ -1,3 +1,5 @@
+# core logic
+#----------------------------------------------------------------------------------------------------------
 # import numpy as np
 
 # board=np.zeros((3,3),dtype=int)
@@ -71,6 +73,12 @@
 #     else:
 #         current=1
 
+
+
+
+
+# python + streamlit
+#----------------------------------------------------------------------
 import streamlit as st
 import numpy as np
 
@@ -179,71 +187,3 @@ if st.button("🔄 Restart Game"):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# current<=9:
-#     r=int(input("enter the row no."))
-#     c=int(input("enter the col no."))
-
-#     if board[r,c] !=0:
-#         print("Block already filled")
-#     else:
-#         fill=input("enter whaw you want to fill")
-#         if fill=="X" or fill=="x":
-#             board[r,c]=1
-#         elif fill=="O" or fill=="o":
-#             board[r,c]=-1
-#         else:
-#             print("Enter the valid option  from 'X' or 'Y'")
-#     current+=1
